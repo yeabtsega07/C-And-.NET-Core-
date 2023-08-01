@@ -1,0 +1,15 @@
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\bin\Debug\net7.0\Grade Calculator (Task 1).exe
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\bin\Debug\net7.0\Grade Calculator (Task 1).deps.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\bin\Debug\net7.0\Grade Calculator (Task 1).runtimeconfig.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\bin\Debug\net7.0\Grade Calculator (Task 1).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\bin\Debug\net7.0\Grade Calculator (Task 1).pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).csproj.AssemblyReference.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).AssemblyInfoInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).AssemblyInfo.cs
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).csproj.CoreCompileInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\refint\Grade Calculator (Task 1).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\Grade Calculator (Task 1).genruntimeconfig.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Grade Calculator (Task 1)\obj\Debug\net7.0\ref\Grade Calculator (Task 1).dll

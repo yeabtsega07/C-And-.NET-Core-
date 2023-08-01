@@ -1,0 +1,15 @@
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\bin\Debug\net7.0\Palindrome Check (Task 3).exe
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\bin\Debug\net7.0\Palindrome Check (Task 3).deps.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\bin\Debug\net7.0\Palindrome Check (Task 3).runtimeconfig.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\bin\Debug\net7.0\Palindrome Check (Task 3).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\bin\Debug\net7.0\Palindrome Check (Task 3).pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).csproj.AssemblyReference.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).AssemblyInfoInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).AssemblyInfo.cs
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).csproj.CoreCompileInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\refint\Palindrome Check (Task 3).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\Palindrome Check (Task 3).genruntimeconfig.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Palindrome Check (Task 3)\obj\Debug\net7.0\ref\Palindrome Check (Task 3).dll

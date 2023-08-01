@@ -1,0 +1,15 @@
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\bin\Debug\net7.0\Word Frequency Count (Task 2).exe
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\bin\Debug\net7.0\Word Frequency Count (Task 2).deps.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\bin\Debug\net7.0\Word Frequency Count (Task 2).runtimeconfig.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\bin\Debug\net7.0\Word Frequency Count (Task 2).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\bin\Debug\net7.0\Word Frequency Count (Task 2).pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).csproj.AssemblyReference.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).AssemblyInfoInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).AssemblyInfo.cs
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).csproj.CoreCompileInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\refint\Word Frequency Count (Task 2).dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\Word Frequency Count (Task 2).genruntimeconfig.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 2\Word Frequency Count (Task 2)\obj\Debug\net7.0\ref\Word Frequency Count (Task 2).dll
