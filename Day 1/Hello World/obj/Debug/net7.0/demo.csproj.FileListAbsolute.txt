@@ -1,0 +1,30 @@
+C:\Users\Home\WorkSpace\A2sv Backend\demo\bin\Debug\net7.0\demo.exe
+C:\Users\Home\WorkSpace\A2sv Backend\demo\bin\Debug\net7.0\demo.deps.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\bin\Debug\net7.0\demo.runtimeconfig.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\bin\Debug\net7.0\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\bin\Debug\net7.0\demo.pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.csproj.AssemblyReference.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.AssemblyInfoInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.AssemblyInfo.cs
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.csproj.CoreCompileInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\refint\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\demo.genruntimeconfig.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\obj\Debug\net7.0\ref\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\bin\Debug\net7.0\demo.exe
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\bin\Debug\net7.0\demo.deps.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\bin\Debug\net7.0\demo.runtimeconfig.json
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\bin\Debug\net7.0\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\bin\Debug\net7.0\demo.pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.csproj.AssemblyReference.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.AssemblyInfoInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.AssemblyInfo.cs
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.csproj.CoreCompileInputs.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\refint\demo.dll
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.pdb
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\demo.genruntimeconfig.cache
+C:\Users\Home\WorkSpace\A2sv Backend\demo\Day 1\Hello World\obj\Debug\net7.0\ref\demo.dll
