@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using LibraryCatalog.Models;
-using LibraryCatalog.Services;
+using LibraryCatalog.Items;
+using LibraryCatalog;
 
 namespace LibraryCatalog.Program
 {
@@ -11,20 +11,19 @@ namespace LibraryCatalog.Program
         {
 
             Library myLibrary = new Library("My Library", "4 kilo Addis Ababa");
-            LibraryService libraryService = new LibraryService(myLibrary);
 
 
-            libraryService.AddBook(new Book("The Alchemist", "Paulo Coelho", "978-0062315007", 2014));
-            libraryService.AddBook(new Book("To Kill a Mockingbird", "Harper Lee", "978-0061120084", 1960));
-            libraryService.AddBook(new Book("Moby-Dick", "Herman Melville", "978-0451524935", 1851));
-            libraryService.AddBook(new Book("The Lord of the Rings", "J.R.R. Tolkien", "978-0544003415", 1954));
-            libraryService.AddBook(new Book("Pride and Prejudice", "Jane Austen", "978-0141439518", 1813));
+            myLibrary.AddBook(new Book("The Alchemist", "Paulo Coelho", "978-0062315007", 2014));
+            myLibrary.AddBook(new Book("To Kill a Mockingbird", "Harper Lee", "978-0061120084", 1960));
+            myLibrary.AddBook(new Book("Moby-Dick", "Herman Melville", "978-0451524935", 1851));
+            myLibrary.AddBook(new Book("The Lord of the Rings", "J.R.R. Tolkien", "978-0544003415", 1954));
+            myLibrary.AddBook(new Book("Pride and Prejudice", "Jane Austen", "978-0141439518", 1813));
 
-            libraryService.AddMediaItem(new MediaItem("Rush Hour", "Movie", 142));
-            libraryService.AddMediaItem(new MediaItem("The Godfather", "Movie", 175));
-            libraryService.AddMediaItem(new MediaItem("Transformers : Age of Extinction", "Movie", 152));
-            libraryService.AddMediaItem(new MediaItem("Spider-Man : Far From Home", "Movie", 202));
-            libraryService.AddMediaItem(new MediaItem("The Lord of the Rings: The Return of the King", "Movie", 201));
+            myLibrary.AddMediaItem(new MediaItem("Rush Hour", "Movie", 142));
+            myLibrary.AddMediaItem(new MediaItem("The Godfather", "Movie", 175));
+            myLibrary.AddMediaItem(new MediaItem("Transformers : Age of Extinction", "Movie", 152));
+            myLibrary.AddMediaItem(new MediaItem("Spider-Man : Far From Home", "Movie", 202));
+            myLibrary.AddMediaItem(new MediaItem("The Lord of the Rings: The Return of the King", "Movie", 201));
 
             while (true)
             {
@@ -53,7 +52,7 @@ namespace LibraryCatalog.Program
                         int publicationYear = int.Parse(Console.ReadLine());
 
                         Book bookToAdd = new Book(title, author, isbn, publicationYear);
-                        libraryService.AddBook(bookToAdd);
+                        myLibrary.AddBook(bookToAdd);
                         break;
 
                     case "2":
@@ -63,7 +62,7 @@ namespace LibraryCatalog.Program
                         Book bookToRemove = myLibrary.Books.Find(book => book.ISBN == isbn);
                         if (bookToRemove != null)
                         {
-                            libraryService.RemoveBook(bookToRemove);
+                            myLibrary.RemoveBook(bookToRemove);
                             Console.WriteLine("Book removed successfully!");
                         }
                         else
@@ -82,7 +81,7 @@ namespace LibraryCatalog.Program
                         int duration = int.Parse(Console.ReadLine());
 
                         MediaItem mediaItemToAdd = new MediaItem(title, mediaType, duration);
-                        libraryService.AddMediaItem(mediaItemToAdd);
+                        myLibrary.AddMediaItem(mediaItemToAdd);
                         break;
 
                     case "4":
@@ -92,7 +91,7 @@ namespace LibraryCatalog.Program
                         MediaItem mediaItemToRemove = myLibrary.MediaItems.Find(item => item.Title == title);
                         if (mediaItemToRemove != null)
                         {
-                            libraryService.RemoveMediaItem(mediaItemToRemove);
+                            myLibrary.RemoveMediaItem(mediaItemToRemove);
                             Console.WriteLine("Media item removed successfully!");
                         }
                         else
@@ -104,7 +103,7 @@ namespace LibraryCatalog.Program
                     case "5":
                         // View all items
                         Console.WriteLine("Library Catalog:");
-                        libraryService.PrintCatalog();
+                        myLibrary.PrintCatalog();
                         break;
 
                     case "6":

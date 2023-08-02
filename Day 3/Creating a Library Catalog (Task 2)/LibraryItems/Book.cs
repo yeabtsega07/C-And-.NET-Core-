@@ -1,4 +1,4 @@
-namespace LibraryCatalog.Models
+namespace LibraryCatalog.Items
 {
     public class Book
     {
