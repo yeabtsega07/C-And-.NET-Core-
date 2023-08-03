@@ -34,7 +34,8 @@ namespace LibraryCatalog.Program
                 Console.WriteLine("3. Add Media Item");
                 Console.WriteLine("4. Remove Media Item");
                 Console.WriteLine("5. View All Items");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("6. Search Items");
+                Console.WriteLine("7. Exit");
 
                 string choice = Console.ReadLine();
 
@@ -107,6 +108,14 @@ namespace LibraryCatalog.Program
                         break;
 
                     case "6":
+                        // Search items
+                        Console.WriteLine("Enter the search query:");
+                        string searchQuery = Console.ReadLine();
+                        myLibrary.SearchItems(searchQuery);
+                        break;
+    
+
+                    case "7":
                         // Exit the program
                         Console.WriteLine("Thanks for visiting! Goodbye.");
                         Environment.Exit(0);

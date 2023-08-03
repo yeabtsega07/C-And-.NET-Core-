@@ -58,5 +58,35 @@ namespace LibraryCatalog
         
         }
 
+        public void SearchItems(string searchQuery)
+        {
+            List<Book> matchingBooks = Books.FindAll(book =>
+                book.Title.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                book.Author.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                book.ISBN.Equals(searchQuery, StringComparison.OrdinalIgnoreCase));
+
+            List<MediaItem> matchingMediaItems = MediaItems.FindAll(item =>
+                item.Title.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                item.MediaType.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+
+            if (matchingBooks.Count == 0 && matchingMediaItems.Count == 0)
+            {
+                Console.WriteLine("No items found matching the search query.");
+                return;
+            }
+
+            Console.WriteLine("Matching Books:");
+            foreach (var book in matchingBooks)
+            {
+                Console.WriteLine($"- Title: {book.Title}, Author: {book.Author}, ISBN: {book.ISBN}, Publication Year: {book.PublicationYear}");
+            }
+
+            Console.WriteLine("\nMatching Media Items:");
+            foreach (var item in matchingMediaItems)
+            {
+                Console.WriteLine($"- Title: {item.Title}, Media Type: {item.MediaType}, Duration: {item.Duration} minutes");
+            }
+        }
+
     }
 }
