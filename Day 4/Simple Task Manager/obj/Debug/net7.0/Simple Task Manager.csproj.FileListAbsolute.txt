@@ -1,0 +1,15 @@
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\bin\Debug\net7.0\Simple Task Manager.exe
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\bin\Debug\net7.0\Simple Task Manager.deps.json
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\bin\Debug\net7.0\Simple Task Manager.runtimeconfig.json
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\bin\Debug\net7.0\Simple Task Manager.dll
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\bin\Debug\net7.0\Simple Task Manager.pdb
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.csproj.AssemblyReference.cache
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.AssemblyInfoInputs.cache
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.AssemblyInfo.cs
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.csproj.CoreCompileInputs.cache
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.dll
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\refint\Simple Task Manager.dll
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.pdb
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\Simple Task Manager.genruntimeconfig.cache
+C:\Users\Home\WorkSpace\C-Sharp-And-.NET-Core-\Day 4\Simple Task Manager\obj\Debug\net7.0\ref\Simple Task Manager.dll

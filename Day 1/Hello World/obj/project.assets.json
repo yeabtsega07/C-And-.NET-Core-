@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\WorkSpace\\A2sv Backend\\demo\\Day 1\\Hello World\\demo.csproj",
+      "projectUniqueName": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj",
       "projectName": "demo",
-      "projectPath": "C:\\Users\\Home\\WorkSpace\\A2sv Backend\\demo\\Day 1\\Hello World\\demo.csproj",
+      "projectPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\WorkSpace\\A2sv Backend\\demo\\Day 1\\Hello World\\obj\\",
+      "outputPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"

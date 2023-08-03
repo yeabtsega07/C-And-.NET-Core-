@@ -1,29 +1,29 @@
 using SimpleTaskManager.Models;
 
-namespace SimpleTaskManager.services
+namespace SimpleTaskManager.Services
 {
     public class TaskManager
     {
-        public List<Task> Tasks { get; set; }
+        public List<TaskItem> Tasks { get; set; }
 
         public TaskManager()
         {
-            Tasks = new List<Task>();
+            Tasks = new List<TaskItem>();
         }
 
-        public void AddTask(Task task)
+        public void AddTask(TaskItem taskItem)
         {
-            Tasks.Add(task);
+            Tasks.Add(taskItem);
         }
 
-        public void RemoveTask(Task task)
-        {
-            Tasks.Remove(task);
-        }
+        // public void RemoveTask(TaskItem taskItem)
+        // {
+        //     Tasks.Remove(taskItem);
+        // }
 
-        public void MarkTaskAsComplete(Task task)
-        {
-            task.MarkAsCompleted();
+        public void MarkTaskAsComplete(TaskItem taskItem)
+        {   
+            taskItem.MarkAsCompleted();
         }
 
         // View Tasks
@@ -36,9 +36,9 @@ namespace SimpleTaskManager.services
             }
             else
             {
-                foreach (var task in Tasks)
+                foreach (var taskItem in Tasks)
                 {
-                    Console.WriteLine(task);
+                    Console.WriteLine(taskItem);
                 }
             }
         }
@@ -46,17 +46,40 @@ namespace SimpleTaskManager.services
         public void ViewAllTasksByCatagory(TaskCatagory catagory)
         {   
             // Lambda Function to filter tasks by catagory
-            var filteredTasks = Tasks.Where(task => task.Catagory == catagory);
+            var filteredTasks = Tasks.Where(taskItem => taskItem.Catagory == catagory);
 
             if (filteredTasks.Count() == 0 )
             {
-                Console.WriteLine("No tasks found in {category} catagory.");
+                Console.WriteLine($"No tasks found in {catagory} catagory.");
             }
             else
             {
-                foreach (var task in filteredTasks)
+                foreach (var taskItem in filteredTasks)
                 {
-                    if (task.Catagory == catagory)
+                    if (taskItem.Catagory == catagory)
+                    {
+                        Console.WriteLine(taskItem);
+                    }
+                }
+            }
+        }
+
+        public void ViewAllTasksByCompletion(bool isCompleted)
+        {   
+            // Lambda Function to filter tasks by completion
+            var filteredTasks = Tasks.Where(taskItem => taskItem.IsCompleted == isCompleted);
+
+            if (filteredTasks.Count() == 0)
+            {   
+                // Ternary Operator to check if there are any tasks that are complete or incomplete
+                Console.WriteLine( isCompleted ? "There are no tasks that are complete.": "There are no tasks that are incomplete." );
+            }
+            else
+            {
+
+                foreach (var task in Tasks)
+                {
+                    if (task.IsCompleted == isCompleted)
                     {
                         Console.WriteLine(task);
                     }
@@ -64,27 +87,9 @@ namespace SimpleTaskManager.services
             }
         }
 
-        public void ViewAllTasksByCompletion(bool isComplete)
-        {   
-            // Lambda Function to filter tasks by completion
-            var filteredTasks = Tasks.where(task => task.IsComplete == isComplete);
-
-            if (filteredTasks.Count() == 0)
-            {   
-                // Ternary Operator to check if there are any tasks that are complete or incomplete
-                Console.WriteLine( isComplete ? "There are no tasks that are complete.": "There are no tasks that are incomplete." );
-            }
-            else
-            {
-
-                foreach (var task in Tasks)
-                {
-                    if (task.IsComplete == isComplete)
-                    {
-                        Console.WriteLine(task);
-                    }
-                }
-            }
+        public TaskItem FindTaskByName(string taskName)
+        {
+            return Tasks.FirstOrDefault(task => task.Name.Equals(taskName, StringComparison.OrdinalIgnoreCase));
         }
 
 
