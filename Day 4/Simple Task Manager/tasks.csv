@@ -1,1 +1,16 @@
-Backend task, Do the c# task,School,False
+Name: Backend task
+Description:  Do the c# task
+Catagory: School
+IsComplete: False
+Name: Gym
+Description: Go to the gym tommorow its going to be Leg day 
+Catagory: Personal
+IsComplete: False
+Name: Meet up with your Uncle
+Description: Go and meet up with your uncle to plan the next family reunion
+Catagory: Family
+IsComplete: False
+Name: cleaning stuffs
+Description: Go to the shopp and buy some cleaning tools for the house
+Catagory: Errands
+IsComplete: False

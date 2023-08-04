@@ -53,7 +53,7 @@ namespace SimpleTaskManager.Data
                         TaskItem taskItem = new TaskItem {
                             Name = taskDetails[0],
                             Description = taskDetails[1],
-                            Catagory = (TaskCatagory)Enum.Parse(typeof(TaskCatagory), taskDetails[2]),
+                            Category = (TaskCategory)Enum.Parse(typeof(TaskCategory), taskDetails[2]),
                             IsCompleted = bool.Parse(taskDetails[3])
                         };
 

@@ -16,10 +16,12 @@ namespace SimpleTaskManager.Services
             Tasks.Add(taskItem);
         }
 
-        // public void RemoveTask(TaskItem taskItem)
-        // {
-        //     Tasks.Remove(taskItem);
-        // }
+        public void UpdateTask(TaskItem task, string newName, string newDescription, TaskCategory newCategory)
+        {
+            task.Name = newName;
+            task.Description = newDescription;
+            task.Category = newCategory;
+        }
 
         public void MarkTaskAsComplete(TaskItem taskItem)
         {   
@@ -43,10 +45,10 @@ namespace SimpleTaskManager.Services
             }
         }
 
-        public void ViewAllTasksByCatagory(TaskCatagory catagory)
+        public void ViewAllTasksByCatagory(TaskCategory catagory)
         {   
             // Lambda Function to filter tasks by catagory
-            var filteredTasks = Tasks.Where(taskItem => taskItem.Catagory == catagory);
+            var filteredTasks = Tasks.Where(taskItem => taskItem.Category == catagory);
 
             if (filteredTasks.Count() == 0 )
             {
@@ -56,7 +58,7 @@ namespace SimpleTaskManager.Services
             {
                 foreach (var taskItem in filteredTasks)
                 {
-                    if (taskItem.Catagory == catagory)
+                    if (taskItem.Category == catagory)
                     {
                         Console.WriteLine(taskItem);
                     }

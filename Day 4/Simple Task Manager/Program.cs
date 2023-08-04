@@ -28,7 +28,8 @@ namespace SimpleTaskManager
                 Console.WriteLine("3. View tasks by catagory");
                 Console.WriteLine("4. View tasks by completion status");
                 Console.WriteLine("5. Mark a task as complete");
-                Console.WriteLine("6. Save tasks to file and Exit");
+                Console.WriteLine("6. Update Task");
+                Console.WriteLine("7. Save tasks to file and Exit");
 
 
                 // Get user input
@@ -43,14 +44,14 @@ namespace SimpleTaskManager
                         Console.WriteLine("Enter the task description:");
                         string description = Console.ReadLine();
                         Console.WriteLine("Enter the task catagory (Personal, Work, Errands, School, Family ):");
-                        TaskCatagory catagory = Enum.Parse<TaskCatagory>(Console.ReadLine());
+                        TaskCategory catagory = Enum.Parse<TaskCategory>(Console.ReadLine());
                         
                         // Using object initializer syntax
                         TaskItem taskItem = new TaskItem
                         {
                             Name = name,
                             Description = description,
-                            Catagory = catagory,
+                            Category = catagory,
                             IsCompleted = false
                         };
                         taskManager.AddTask(taskItem);
@@ -66,7 +67,7 @@ namespace SimpleTaskManager
 
                         // View tasks by catagory
                         Console.WriteLine("Enter the task catagory (Personal, Work, Errands, School, Family ):");
-                        TaskCatagory selectedCatagory = Enum.Parse<TaskCatagory>(Console.ReadLine());
+                        TaskCategory selectedCatagory = Enum.Parse<TaskCategory>(Console.ReadLine());
                         Console.WriteLine($"Tasks in {selectedCatagory} catagory:");    
                         taskManager.ViewAllTasksByCatagory(selectedCatagory);
                         break;
@@ -99,6 +100,49 @@ namespace SimpleTaskManager
                         break;
 
                     case "6":
+                        //  Update task
+                        Console.WriteLine("Enter the name of the task to update");
+                        string taskNameForUpdate = Console.ReadLine();
+                        var taskToUpdate = taskManager.FindTaskByName(taskNameForUpdate);
+
+                        if (taskToUpdate != null )
+                        {
+                            Console.WriteLine($"Updating : {taskToUpdate}");
+                            Console.WriteLine("Enter the new task name (or press Enter to keep the current name):");
+                            string newName = Console.ReadLine();
+                            if (string.IsNullOrEmpty(newName))
+                            {
+                                newName = taskToUpdate.Name;
+                            }
+
+                            Console.WriteLine("Enter the new task description (or press Enter to keep the current description):");
+                            string newDescription = Console.ReadLine();
+                            if (string.IsNullOrEmpty(newDescription))
+                            {
+                                newDescription = taskToUpdate.Description;
+                            }
+                            Console.WriteLine("Enter the new task category (or press Enter to keep the current category):");
+                            string newCategoryInput = Console.ReadLine();
+                            TaskCategory newCategory;
+                            if (string.IsNullOrEmpty(newCategoryInput))
+                            {
+                                newCategory = taskToUpdate.Category;
+                            }
+                            else
+                            {
+                                newCategory = Enum.Parse<TaskCategory>(newCategoryInput);
+                            }
+
+                            taskManager.UpdateTask(taskToUpdate, newName, newDescription, newCategory);
+                            Console.WriteLine("Task updated");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Task not found.");
+                        }
+                        break;
+
+                    case "7":
                         // Save tasks to file and exit
                         Console.WriteLine("Saving tasks to file...");
                         await fileOperations.SaveTasks(taskManager.Tasks);

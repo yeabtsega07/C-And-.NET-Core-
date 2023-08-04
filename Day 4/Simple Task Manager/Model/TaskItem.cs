@@ -1,7 +1,7 @@
 
 namespace SimpleTaskManager.Models
 {
-    public enum TaskCatagory
+    public enum TaskCategory
     {
         Personal,
         Work,
@@ -16,7 +16,7 @@ namespace SimpleTaskManager.Models
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public TaskCatagory Catagory { get; set; }
+        public TaskCategory Category { get; set; }
         public bool IsCompleted { get; set; }
 
 
@@ -28,7 +28,7 @@ namespace SimpleTaskManager.Models
 
         public override string ToString()
         {
-            return $"Name: {Name}\nDescription: {Description}\nCatagory: {Catagory}\nIsComplete: {IsCompleted}";
+            return $"Name: {Name}\nDescription: {Description}\nCatagory: {Category}\nIsComplete: {IsCompleted}";
         }
     }
 }
