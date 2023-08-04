@@ -11,14 +11,12 @@ namespace SimpleTaskManager
         public static async Task Main()
         {
             // Create a task manager object and load tasks from file
+            TaskManager taskManager = new TaskManager();
             FileOperations fileOperations = new FileOperations();
-            TaskManager taskManager = new TaskManager{
-                Tasks = await fileOperations.LoadTasks()
+            taskManager.Tasks = await fileOperations.LoadTasks();
 
-            };
 
             // Display the menu
-;
             while (true)
             {
                 Console.WriteLine("Welcome to the Simple Task Manager");

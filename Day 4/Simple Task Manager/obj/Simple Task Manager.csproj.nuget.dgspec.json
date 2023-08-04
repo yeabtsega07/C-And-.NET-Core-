@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj": {}
+    "C:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj": {
+    "C:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj",
         "projectName": "Simple Task Manager",
-        "projectPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj",
+        "projectPath": "C:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\Simple Task Manager.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\obj\\",
+        "outputPath": "C:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 4\\Simple Task Manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"

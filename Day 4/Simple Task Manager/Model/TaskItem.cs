@@ -28,7 +28,7 @@ namespace SimpleTaskManager.Models
 
         public override string ToString()
         {
-            return $"Name: {Name}\nDescription: {Description}\nCatagory: {Category}\nIsComplete: {IsCompleted}";
+            return $"{Name} {Description} {Category} {IsCompleted}";
         }
     }
 }

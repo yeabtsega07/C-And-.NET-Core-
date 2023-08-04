@@ -42,7 +42,8 @@ namespace SimpleTaskManager.Data
             try
             {
                 if (!File.Exists(_fileName))
-                {
+                {   
+                    Console.WriteLine("No tasks found.");
                     return tasks;
                 }
 
@@ -51,8 +52,8 @@ namespace SimpleTaskManager.Data
                     string line;
 
                     while ((line = await reader.ReadLineAsync()) != null)
-                    {
-                        string[] taskDetails = line.Split(',');
+                    {   
+                        string[] taskDetails = line.Split(' ');
 
                         TaskItem taskItem = new TaskItem {
                             Name = taskDetails[0],
@@ -63,7 +64,7 @@ namespace SimpleTaskManager.Data
 
                         tasks.Add(taskItem);
 
-                        }
+                    }
 
                     }
                 }
