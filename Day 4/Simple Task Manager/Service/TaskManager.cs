@@ -89,6 +89,7 @@ namespace SimpleTaskManager.Services
             }
         }
 
+        // Find Task by Name
         public TaskItem FindTaskByName(string taskName)
         {
             return Tasks.FirstOrDefault(task => task.Name.Equals(taskName, StringComparison.OrdinalIgnoreCase));

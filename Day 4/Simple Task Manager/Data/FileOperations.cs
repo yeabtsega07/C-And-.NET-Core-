@@ -7,11 +7,14 @@ using SimpleTaskManager.Models;
 namespace SimpleTaskManager.Data
 {
     public class FileOperations
-    {
+    {   
+        
         private const string _fileName = "tasks.csv";
 
+        // SaveTasks method saves the tasks to the file
         public async Task SaveTasks(List<TaskItem> tasks)
-        {
+        {   
+            // StreamWriter is used to write the data to the file
             try
             {
                 using (StreamWriter writer = new StreamWriter(_fileName))
@@ -31,10 +34,11 @@ namespace SimpleTaskManager.Data
             }
         }
 
+        // LoadTasks method loads the tasks from the file
         public async Task<List<TaskItem>> LoadTasks()
         {
             List<TaskItem> tasks = new List<TaskItem>();
-
+            // StreamReader is used to read the data from the file
             try
             {
                 if (!File.Exists(_fileName))
