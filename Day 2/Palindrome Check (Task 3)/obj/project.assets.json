@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Palindrome Check (Task 3)\\Palindrome Check (Task 3).csproj",
+      "projectUniqueName": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Palindrome Check (Task 3)\\Palindrome Check (Task 3).csproj",
       "projectName": "Palindrome Check (Task 3)",
-      "projectPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Palindrome Check (Task 3)\\Palindrome Check (Task 3).csproj",
+      "projectPath": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Palindrome Check (Task 3)\\Palindrome Check (Task 3).csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Palindrome Check (Task 3)\\obj\\",
+      "outputPath": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Palindrome Check (Task 3)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"

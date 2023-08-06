@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj": {}
+    "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj": {}
   },
   "projects": {
-    "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj": {
+    "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj",
+        "projectUniqueName": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj",
         "projectName": "Word Frequency Count (Task 2)",
-        "projectPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj",
+        "projectPath": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\Word Frequency Count (Task 2).csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\obj\\",
+        "outputPath": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 2\\Word Frequency Count (Task 2)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"

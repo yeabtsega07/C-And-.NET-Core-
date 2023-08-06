@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Student Management System (Task 1)/1.0.0": {
+        "runtime": {
+          "Student Management System (Task 1).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Student Management System (Task 1)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

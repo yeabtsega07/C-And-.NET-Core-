@@ -1,0 +1,15 @@
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).csproj.AssemblyReference.cache
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).AssemblyInfoInputs.cache
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).AssemblyInfo.cs
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).csproj.CoreCompileInputs.cache
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\bin\Debug\net7.0\Student Management System (Task 1).exe
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\bin\Debug\net7.0\Student Management System (Task 1).deps.json
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\bin\Debug\net7.0\Student Management System (Task 1).runtimeconfig.json
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\bin\Debug\net7.0\Student Management System (Task 1).dll
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\bin\Debug\net7.0\Student Management System (Task 1).pdb
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).dll
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\refint\Student Management System (Task 1).dll
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).pdb
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\Student Management System (Task 1).genruntimeconfig.cache
+C:\Users\Home\OneDrive\Desktop\C-Sharp-And-.NET-Core-\Day 5\Student Management System (Task 1)\obj\Debug\net7.0\ref\Student Management System (Task 1).dll

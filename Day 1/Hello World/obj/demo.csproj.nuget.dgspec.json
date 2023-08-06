@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj": {}
+    "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj": {
+    "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj",
+        "projectUniqueName": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj",
         "projectName": "demo",
-        "projectPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj",
+        "projectPath": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\demo.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Home\\WorkSpace\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\obj\\",
+        "outputPath": "c:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 1\\Hello World\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
