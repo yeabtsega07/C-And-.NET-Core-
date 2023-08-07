@@ -34,6 +34,9 @@ public class StudentList<T>
     }
 
     // search for a student by name
+    // the predicate parameter is a function that takes a Student object and returns a boolean value
+    // the orderBy parameter is a function that takes a list of Student objects and returns an ordered list of Student objects
+    // its a query that is executed on the list of Student objects
     public T SearchStudent(Func<T, bool> predicate, Func<IEnumerable<T>, IOrderedEnumerable<T>> orderBy = null)
     {
         var query = students.Where(predicate);
