@@ -39,7 +39,9 @@ public class StudentList<T>
     // its a query that is executed on the list of Student objects
     public T SearchStudent(Func<T, bool> predicate, Func<IEnumerable<T>, IOrderedEnumerable<T>> orderBy = null)
     {
-        var query = students.Where(predicate);
+        var query = from student in students
+                    where predicate(student)
+                    select student;
         
         if (orderBy != null)
         {
