@@ -7,18 +7,22 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace BlogApp.Controllers
-{
+{   
+    // This controller is used to manage comments for a post
     [ApiController]
     [Route("api/posts/{postId}/comments")]
     public class CommentsController : ControllerBase
-    {
+    {   
+        // The database context
         private readonly BlogDbContext _context;
 
+        // Constructor
         public CommentsController(BlogDbContext context)
         {
             _context = context;
         }
 
+        // GET: api/posts/{postId}/comments
         [HttpGet]
         public async Task<IActionResult> GetCommentsForPost(int postId)
         {
@@ -38,6 +42,7 @@ namespace BlogApp.Controllers
             }
         }
 
+        // GET: api/posts/{postId}/comments/{commentId}
         [HttpPost]
         public async Task<IActionResult> CreateCommentForPost(int postId, Comment comment)
         {
@@ -63,6 +68,8 @@ namespace BlogApp.Controllers
             }
         }
 
+        // PUT: api/posts/{postId}/comments/{commentId}
+
         [HttpPut("{commentId}")]
         public async Task<IActionResult> UpdateComment(int postId, int commentId, Comment updatedComment)
         {
@@ -86,6 +93,8 @@ namespace BlogApp.Controllers
                 return StatusCode(500, "Failed to update comment: " + ex.Message);
             }
         }
+
+        // DELETE: api/posts/{postId}/comments/{commentId}
 
         [HttpDelete("{commentId}")]
         public async Task<IActionResult> DeleteComment(int postId, int commentId)

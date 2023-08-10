@@ -6,6 +6,7 @@ namespace BlogApp.Data
 
     public class BlogDbContext : DbContext
     {   
+        // DbSets for each model
         public virtual DbSet<Post> Posts { get; set; }
         public virtual DbSet<Comment> Comments { get; set; }
         public BlogDbContext (DbContextOptions<BlogDbContext> options)
@@ -14,6 +15,8 @@ namespace BlogApp.Data
             
         }
 
+
+        // override OnModelCreating to configure relationships
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {   
             base.OnModelCreating(modelBuilder);

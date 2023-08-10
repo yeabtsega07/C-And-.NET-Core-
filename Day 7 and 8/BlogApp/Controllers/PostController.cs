@@ -11,7 +11,8 @@ namespace BlogApp.Controllers
     [ApiController]
     [Route("api/[controller]")]
     public class PostsController : ControllerBase
-    {
+    {   
+        // this is the database context we'll use to query the database
         private readonly BlogDbContext _context;
 
         public PostsController(BlogDbContext context)
@@ -19,6 +20,7 @@ namespace BlogApp.Controllers
             _context = context;
         }
 
+        // GET api/posts
         [HttpGet]
         public async Task<IActionResult> GetPosts()
         {
@@ -33,6 +35,8 @@ namespace BlogApp.Controllers
             }
         }
 
+
+        // GET api/posts/5
         [HttpGet("{postId}")]
         public async Task<IActionResult> GetPost(int postId)
         {
@@ -51,6 +55,7 @@ namespace BlogApp.Controllers
             }
         }
 
+        // POST api/posts
         [HttpPost]
         public async Task<IActionResult> CreatePost(Post post)
         {
@@ -70,6 +75,8 @@ namespace BlogApp.Controllers
             }
         }
 
+
+        // PUT api/posts/5
         [HttpPut("{postId}")]
         public async Task<IActionResult> UpdatePost(int postId, Post updatedPost)
         {
@@ -95,6 +102,7 @@ namespace BlogApp.Controllers
             }
         }
 
+        // DELETE api/posts/5
         [HttpDelete("{postId}")]
         public async Task<IActionResult> DeletePost(int postId)
         {
@@ -115,6 +123,8 @@ namespace BlogApp.Controllers
             }
         }
 
+
+        // GET api/posts/summaries
         [HttpGet("summaries")]
         public async Task<IActionResult> GetPostSummaries()
         {
@@ -135,6 +145,8 @@ namespace BlogApp.Controllers
             }
         }
 
+
+        // GET api/posts/5/details
         [HttpGet("{postId}/details")]
         public async Task<IActionResult> GetPostDetails(int postId)
         {
