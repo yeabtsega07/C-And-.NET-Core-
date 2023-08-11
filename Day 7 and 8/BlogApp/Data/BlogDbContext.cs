@@ -28,7 +28,7 @@ namespace BlogApp.Data
                     .HasOne(c => c.Post)
                     .WithMany(p => p.Comments)
                     .HasForeignKey(c => c.PostId)
-                    .OnDelete(DeleteBehavior.Restrict)
+                    .OnDelete(DeleteBehavior.Cascade)
                     .HasConstraintName("FK_Comment_Post");
             });
 

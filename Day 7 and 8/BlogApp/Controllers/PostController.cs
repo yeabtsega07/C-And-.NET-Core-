@@ -27,7 +27,7 @@ namespace BlogApp.Controllers
             try
             {
                 var posts = await _context.Posts.Include(p => p.Comments).ToListAsync();
-                return Ok(posts);
+                return Ok(new { message = "Posts retrieved successfully", posts = posts });
             }
             catch (Exception ex)
             {
@@ -47,7 +47,7 @@ namespace BlogApp.Controllers
                 if (post == null)
                     return NotFound("Post not found");
 
-                return Ok(post);
+                return Ok(new { message = "Post retrieved successfully", post = post });
             }
             catch (Exception ex)
             {
@@ -90,7 +90,7 @@ namespace BlogApp.Controllers
                 existingPost.Title = updatedPost.Title;
                 existingPost.Content = updatedPost.Content;
                 await _context.SaveChangesAsync();
-                return NoContent();
+                return Ok(new { message = "Updated successfully", post = existingPost });
             }
             catch (DbUpdateException ex)
             {
@@ -102,27 +102,25 @@ namespace BlogApp.Controllers
             }
         }
 
-        // DELETE api/posts/5
         [HttpDelete("{postId}")]
         public async Task<IActionResult> DeletePost(int postId)
         {
             try
             {
-                var post = await _context.Posts.FirstOrDefaultAsync(p => p.Id == postId);
+                var post = await _context.Posts.Include(p => p.Comments).FirstOrDefaultAsync(p => p.Id == postId);
 
                 if (post == null)
                     return NotFound("Post not found");
 
                 _context.Posts.Remove(post);
                 await _context.SaveChangesAsync();
-                return NoContent();
+                return Ok(new {message = "Post deleted successfully"});
             }
             catch (Exception ex)
             {
                 return StatusCode(500, "Failed to delete post: " + ex.Message);
             }
         }
-
 
         // GET api/posts/summaries
         [HttpGet("summaries")]

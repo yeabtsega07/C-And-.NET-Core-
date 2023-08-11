@@ -34,7 +34,7 @@ namespace BlogApp.Controllers
                     return NotFound("Post not found");
 
                 var comments = await _context.Comments.Where(c => c.PostId == postId).ToListAsync();
-                return Ok(comments);
+                return Ok( new {message = "Comments retrieved successfully", comments});
             }
             catch (Exception ex)
             {
@@ -82,7 +82,7 @@ namespace BlogApp.Controllers
 
                 existingComment.Content = updatedComment.Content;
                 await _context.SaveChangesAsync();
-                return NoContent();
+                return Ok( new {message = "Comment updated successfully", existingComment});
             }
             catch (DbUpdateException ex)
             {
@@ -108,7 +108,7 @@ namespace BlogApp.Controllers
 
                 _context.Comments.Remove(comment);
                 await _context.SaveChangesAsync();
-                return NoContent();
+                return Ok( new {message = "Comment deleted successfully"});
             }
             catch (Exception ex)
             {
