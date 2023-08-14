@@ -1,0 +1,15 @@
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\bin\Debug\net7.0\BlogApi.Application.deps.json
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\bin\Debug\net7.0\BlogApi.Application.dll
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\bin\Debug\net7.0\BlogApi.Application.pdb
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\bin\Debug\net7.0\BlogApi.Domain.dll
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\bin\Debug\net7.0\BlogApi.Domain.pdb
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.csproj.AssemblyReference.cache
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.AssemblyInfoInputs.cache
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.AssemblyInfo.cs
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.csproj.CopyComplete
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.dll
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\refint\BlogApi.Application.dll
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\BlogApi.Application.pdb
+C:\Users\Home\RiderProjects\BlogApi\BlogApi.Application\obj\Debug\net7.0\ref\BlogApi.Application.dll
