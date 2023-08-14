@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BlogApp.Controllers;
@@ -37,7 +38,7 @@ namespace BlogApp.Tests
             var newComment = new Comment { Content = "Test Comment", PostId = post.Id };
 
             // Act
-            var createResult = await _commentsController.CreateCommentForPost(post.Id, newComment) as CreatedAtActionResult;
+            var createResult = await _commentsController.CreateCommentForPost(newComment) as CreatedAtActionResult;
             var createdComment = createResult.Value as Comment;
 
             // Assert
@@ -48,7 +49,6 @@ namespace BlogApp.Tests
 
         [Fact]
         public async Task Test_GetCommentsForPost()
-
         {
             // Arrange
             var post = new Post { Title = "Test Post", Content = "This is a test post." };
@@ -70,6 +70,14 @@ namespace BlogApp.Tests
             // Assert
             Assert.Equal(200, result.StatusCode);
             Assert.Equal(comments.Count, retrievedComments.Count);
+
+            // Test GetCommentById
+            var commentId = retrievedComments.First().Id;
+            var commentResult = await _commentsController.GetCommentById(commentId) as OkObjectResult;
+            var retrievedComment = commentResult.Value as Comment;
+
+            Assert.Equal(200, commentResult.StatusCode);
+            Assert.Equal(retrievedComments.First().Content, retrievedComment.Content);
         }
 
         [Fact]
@@ -87,7 +95,7 @@ namespace BlogApp.Tests
             var updatedComment = new Comment { Content = "Updated Comment", PostId = post.Id };
 
             // Act
-            var updateResult = await _commentsController.UpdateComment(post.Id, commentToUpdate.Id, updatedComment) as NoContentResult;
+            var updateResult = await _commentsController.UpdateComment(commentToUpdate.Id, updatedComment) as NoContentResult;
 
             // Assert
             Assert.Equal(204, updateResult.StatusCode);
@@ -109,13 +117,38 @@ namespace BlogApp.Tests
             await _dbContext.SaveChangesAsync();
 
             // Act
-            var deleteResult = await _commentsController.DeleteComment(post.Id, commentToDelete.Id) as NoContentResult;
+            var deleteResult = await _commentsController.DeleteComment(commentToDelete.Id) as NoContentResult;
 
             // Assert
             Assert.Equal(204, deleteResult.StatusCode);
 
             var deletedComment = await _dbContext.Comments.FirstOrDefaultAsync(c => c.Id == commentToDelete.Id);
             Assert.Null(deletedComment);
+        }
+
+        [Fact]
+        public async Task Test_GetAllComments()
+        {
+            // Arrange
+            var post = new Post { Title = "Test Post", Content = "This is a test post." };
+            await _dbContext.Posts.AddAsync(post);
+            await _dbContext.SaveChangesAsync();
+
+            var comments = new List<Comment>
+            {
+                new Comment { Content = "Comment 1", PostId = post.Id },
+                new Comment { Content = "Comment 2", PostId = post.Id }
+            };
+            await _dbContext.Comments.AddRangeAsync(comments);
+            await _dbContext.SaveChangesAsync();
+
+            // Act
+            var result = await _commentsController.GetAllComments() as OkObjectResult;
+            var retrievedComments = result.Value as List<Comment>;
+
+            // Assert
+            Assert.Equal(200, result.StatusCode);
+            Assert.Equal(comments.Count, retrievedComments.Count);
         }
 
         // Add more tests for CommentsController...

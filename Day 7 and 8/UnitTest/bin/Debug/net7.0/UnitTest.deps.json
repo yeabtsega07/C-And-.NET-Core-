@@ -10,7 +10,10 @@
         "dependencies": {
           "BlogApp": "1.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.10",
+          "Microsoft.TestPlatform": "17.6.3",
+          "Microsoft.TestPlatform.AdapterUtilities": "17.7.0",
           "Moq": "4.20.2",
+          "NuGet.Frameworks": "6.7.0",
           "xunit.abstractions": "2.0.3",
           "xunit": "2.5.0",
           "xunit.runner.console": "2.5.0",
@@ -168,6 +171,55 @@
         }
       },
       "Microsoft.TestPlatform/17.6.3": {},
+      "Microsoft.TestPlatform.AdapterUtilities/17.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.TestPlatform.AdapterUtilities.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "17.700.23.40405"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.AdapterUtilities.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -275,6 +327,14 @@
           "lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
             "assemblyVersion": "7.0.4.0",
             "fileVersion": "7.0.4.0"
+          }
+        }
+      },
+      "NuGet.Frameworks/6.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
           }
         }
       },
@@ -1175,6 +1235,13 @@
       "path": "microsoft.testplatform/17.6.3",
       "hashPath": "microsoft.testplatform.17.6.3.nupkg.sha512"
     },
+    "Microsoft.TestPlatform.AdapterUtilities/17.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-95lSiJfhgYh04A7xiW+nlNrNaeE13FWgGpGbsoUmocxQsecOLcrLvFlwXAZq6U3SQOe2aZmmtiadLpDmnbLJ4Q==",
+      "path": "microsoft.testplatform.adapterutilities/17.7.0",
+      "hashPath": "microsoft.testplatform.adapterutilities.17.7.0.nupkg.sha512"
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1223,6 +1290,13 @@
       "sha512": "sha512-ZYMtyG6pmLtUsFAx0/XaIlVkJM+1gArWEKD55cLLxiVlGScAphjiGj+G7Gk16yg5lhhdWx+bgXWpIUISXuS33g==",
       "path": "npgsql.entityframeworkcore.postgresql/7.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512"
+    },
+    "NuGet.Frameworks/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mTKaTSINpCjMHTNdaPMD/0nfHvWGetG67KzWtDJklnAp9nNwqA+t65G0v8XA/Ve35ipmPRdklxFIl3O55iTgnQ==",
+      "path": "nuget.frameworks/6.7.0",
+      "hashPath": "nuget.frameworks.6.7.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

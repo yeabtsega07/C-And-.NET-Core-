@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ksnCE1TSLH1fZiYDxj6ER4wGG8DmmoG6NUJVo4Cj4alpF3U75Nxea2piaf3yYjU0mixp1Fx+YfBAr//c68xxA==",
+  "dgSpecHash": "9Yhu6M+l39OxVoJYBs4OSjwFl/J27sETa23ngIXQsgeTg7DkO0FYyn9ao+cro9IuxmDETuKGRdiqMfBOdz/4pA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Home\\OneDrive\\Desktop\\C-Sharp-And-.NET-Core-\\Day 7 and 8\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.testplatform\\17.6.3\\microsoft.testplatform.17.6.3.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\microsoft.testplatform.adapterutilities\\17.7.0\\microsoft.testplatform.adapterutilities.17.7.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\moq\\4.20.2\\moq.4.20.2.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
@@ -35,6 +36,7 @@
     "C:\\Users\\Home\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\nuget.frameworks\\6.7.0\\nuget.frameworks.6.7.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
